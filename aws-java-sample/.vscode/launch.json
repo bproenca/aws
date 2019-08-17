@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - S3Sample",
+            "request": "launch",
+            "mainClass": "com.amazonaws.samples.S3Sample",
+            "projectName": "aws-java-sample"
+        }
+    ]
+}

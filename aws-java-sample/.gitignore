@@ -1,0 +1,8 @@
+AwsCredentials.properties
+.idea
+target/
+*.iml
+.classpath
+.project
+.settings
+.xyz

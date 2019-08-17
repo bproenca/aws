@@ -1,0 +1,10 @@
+#!/bin/bash
+yum update -y
+yum install httpd24 -y
+aws s3 cp s3://bcp.ec2.site/pages/ /var/www/html/ --recursive
+mkdir /opt/bcp
+aws s3 cp s3://bcp.ec2.site/scripts /opt/bcp/ --recursive
+chmod +x /opt/bcp/create_index.sh
+/opt/bcp/create_index.sh
+service httpd start
+chkconfig httpd on

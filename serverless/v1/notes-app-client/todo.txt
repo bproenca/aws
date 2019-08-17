@@ -1,0 +1,5 @@
+Mac
+- npm install aws-sdk --save (??)
+- npm install crypto-js --save (??)
+
+- npm install --save react-loadable
