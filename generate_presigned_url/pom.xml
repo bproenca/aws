@@ -19,7 +19,7 @@
             <groupId>org.bouncycastle</groupId>
             <artifactId>bcprov-jdk15on</artifactId>
             <!--<version>1.11.106</version>-->
-            <version>1.55</version>
+            <version>1.67</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/net.java.dev.jets3t/jets3t -->
         <dependency>
